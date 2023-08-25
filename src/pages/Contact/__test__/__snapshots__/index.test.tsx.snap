@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Contact page > renders and matches the snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    contact me pls
+  </div>
+</DocumentFragment>
+`;
