@@ -2,8 +2,10 @@
 
 exports[`Contact page > renders and matches the snapshot 1`] = `
 <DocumentFragment>
-  <div>
-    contact me pls
-  </div>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-nnsfc0-MuiTypography-root"
+  >
+    contact
+  </p>
 </DocumentFragment>
 `;

@@ -5,7 +5,7 @@ exports[`About page > renders and matches the snapshot 1`] = `
   <p
     class="MuiTypography-root MuiTypography-body1 css-nnsfc0-MuiTypography-root"
   >
-    about najiha
+    about
   </p>
 </DocumentFragment>
 `;
