@@ -24,6 +24,6 @@ describe('Home page', () => {
       </BrowserRouter>,
     );
 
-    expect(screen.getByText('lol')).toBeInTheDocument();
+    expect(screen.getByText('test')).toBeInTheDocument();
   });
 });
