@@ -1,6 +1,6 @@
+import { AppBar, Avatar, Button, styled, Toolbar } from '@mui/material';
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
-import { Avatar, Button, styled, Toolbar, AppBar } from '@mui/material';
 
 const menuPages = ['home', 'about', 'contact'];
 
