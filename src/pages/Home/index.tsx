@@ -5,7 +5,7 @@ import FakeText from '../../components/FakeText';
 const Home = () => {
   return (
     <>
-      <Typography sx={{ color: 'black' }}>home</Typography>
+      <Typography sx={{ color: 'white' }}>home</Typography>
       <FakeText />
     </>
   );
