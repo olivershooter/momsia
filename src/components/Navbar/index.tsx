@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <AppBar position="static">
       <Toolbar sx={{ backgroundColor: '#99582a' }}>
-        <Avatar component={Link} to="/" alt="Logo" src="/vite.svg" />
+        <Avatar component={Link} to="/" alt="Logo" src="/logo.svg" />
         <StyledDiv>
           {menuPages.map((page) => {
             const link = '/' + page;
