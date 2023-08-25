@@ -1,35 +1,33 @@
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
-import { Avatar, Button, styled, Toolbar, AppBar, Container } from '@mui/material';
+import { Avatar, Button, styled, Toolbar, AppBar } from '@mui/material';
 
 const menuPages = ['home', 'about', 'contact'];
 
 const Navbar = () => {
   return (
     <AppBar position="static">
-      <Container maxWidth="xl">
-        <Toolbar sx={{ justifyContent: 'space-between' }}>
-          <Avatar component={Link} to="/" alt="Logo" src="/vite.svg" />
-          <StyledDiv>
-            {menuPages.map((page) => {
-              const link = '/' + page;
-              return (
-                <Button
-                  component={Link}
-                  to={link}
-                  key={page}
-                  disableElevation={true}
-                  sx={{ color: 'white', maxWidth: '40px' }}
-                >
-                  {page}
-                </Button>
-              );
-            })}
-          </StyledDiv>
+      <Toolbar sx={{ backgroundColor: '#99582a' }}>
+        <Avatar component={Link} to="/" alt="Logo" src="/vite.svg" />
+        <StyledDiv>
+          {menuPages.map((page) => {
+            const link = '/' + page;
+            return (
+              <Button
+                component={Link}
+                to={link}
+                key={page}
+                disableElevation={true}
+                sx={{ color: 'white', fontWeight: 'bolder' }}
+              >
+                {page}
+              </Button>
+            );
+          })}
+        </StyledDiv>
 
-          <Outlet />
-        </Toolbar>
-      </Container>
+        <Outlet />
+      </Toolbar>
     </AppBar>
   );
 };
